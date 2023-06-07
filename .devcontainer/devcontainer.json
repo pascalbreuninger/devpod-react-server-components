@@ -1,0 +1,14 @@
+{
+  "name": "React Server Components Demo",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "forwardPorts": [
+    "4000"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "chmod +x .devcontainer/init.sh && nohup .devcontainer/init.sh",
+  "postStartCommand": "chmod +x .devcontainer/start.sh && nohup .devcontainer/start.sh"
+}

@@ -1,0 +1,9 @@
+FROM postgres:13
+
+ENV POSTGRES_USER=notesadmin
+ENV POSTGRES_PASSWORD=password
+ENV POSTGRES_DB=notesapi
+
+EXPOSE 5432
+
+VOLUME pgdata:/var/lib/postgresql/data

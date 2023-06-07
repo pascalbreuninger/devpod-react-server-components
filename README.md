@@ -1,5 +1,7 @@
 # React Server Components Demo
 
+[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/pascalbreuninger/devpod-react-server-components)
+
 * [What is this?](#what-is-this)
 * [When will I be able to use this?](#when-will-i-be-able-to-use-this)
 * [Should I use this demo for benchmarks?](#should-i-use-this-demo-for-benchmarks)
